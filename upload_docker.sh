@@ -13,7 +13,7 @@ DOCKER_ID=minaeshak
 echo "Docker ID and Image: $dockerpath"
 echo "Please enter docker password:"
 docker login -u "$DOCKER_ID"
-
+docker tag $dockerpath minaeshak/${dockerpath}
 # Step 3:
 # Push image to a docker repository
 docker push minaeshak/prediction-app
