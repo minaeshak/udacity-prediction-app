@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/minaeshak/udacity-prediction-app/tree/master.svg?style=svg)](https://circleci.com/gh/minaeshak/udacity-prediction-app/tree/master)
 
 ## Project Overview
 
